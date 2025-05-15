@@ -1,0 +1,16 @@
+function result = findFactorial(n)
+    % Check if non-negative integer
+    if n < 0 || floor(n) ~= n
+        disp('Not possible');
+        disp('Input must be a non-negative integer.');
+        result = NaN; 
+        return
+    else
+        result = 1; % return the other condition 
+        for i = 1:n
+            result = result * i;
+        end
+    end 
+end
+
+

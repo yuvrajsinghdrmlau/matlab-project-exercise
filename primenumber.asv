@@ -1,0 +1,17 @@
+% to check number is prime or not
+% take input from user
+a = input("enter the number to check weather it is prime or not : ");
+%authenticating number
+if ~(isnumeric(a) && a > 0)
+    fprintf("enter valid number : ");
+else
+    b = 2:a-1;
+    c = mod(a,b)
+    switch c
+        case 0
+            fprintf("the number is not prime");
+        case 1
+             fprintf("the number is prime");
+    end
+   
+end

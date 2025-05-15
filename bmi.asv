@@ -1,0 +1,10 @@
+function bmi = calculateBMI(height,weight)
+height = input("enter your height in cm: \n");
+weight = input("enter your weight in kg: \n");
+bmi = weight / ((height*height)/10000);
+
+fprintf("the bmi value is : %d",bmi);
+
+switch bmi
+    case bmi < 18.5
+        

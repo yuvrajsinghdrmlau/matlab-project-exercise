@@ -1,0 +1,10 @@
+
+for j = 1:5
+
+
+for i =  j : 5
+    fprintf("*");
+
+    fprintf("/n")
+end
+end

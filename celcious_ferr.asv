@@ -1,0 +1,2 @@
+function ferr = celcioustoferr(celcious)
+celcious = input ("enter the celcious you want to convert:  \n");
